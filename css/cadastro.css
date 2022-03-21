@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/waves.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+header{
+    width: auto;
+    height: 200px;
+}
+#logo-site {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    margin:  auto;
+}
+main{
+    width: auto;
+    height:50%;
+}
+.area-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F5F5;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    padding: 35px;
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.login input{
+    margin-top: 10px;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+}
+h1{
+    margin-left: 39%;
+    width: 500px;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+}
+.login h2{
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+}
+input::placeholder{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.btn-entrar{
+    display: block;
+    background-color: #225E77;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+a{
+    color: #225E77;
+    text-decoration: none;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.btn-cadast{
+    background-color: #E7E7E7;
+    color: black;
+    font: 1rem;
+    font-family: 'Roboto', sans-serif;
+}

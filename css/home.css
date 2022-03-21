@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body{
+    background-image: url(../img/wave.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+header{
+    width: auto;
+    height: 200px;
+}
+#logo-site {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin:  auto;
+    margin-top: 50px;
+}
+#tituloSite{
+    height: 100px;
+    width:100px;
+    display: flex;
+    justify-content: center;
+    margin:  auto;
+
+}
+h1{
+    color: #225E77;
+    font-size: 5rem;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    color:#225E77;
+    font-size: 5rem;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+}
+#desc-site{
+    width:500px;
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    margin: auto;
+}
+p{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 11%;
+    margin-left: 250px;
+    
+}
+.container-botoes{
+    height:100%;
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-content: center;
+    padding-top: 40px;
+}
+#btn-candidato{
+    height:75px;
+    width:200px;
+    background-color: #225E77;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+#btn-empresa{
+  height:75px;
+  width:200px;
+  background-color: #225E77;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 40px;
+
+}
