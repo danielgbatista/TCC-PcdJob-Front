@@ -71,7 +71,8 @@ p{
     color: white;
     border-radius: 10px;
     font-size: 1.5rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 40px;
 }
 #btn-empresa{
   height:75px;
@@ -80,7 +81,5 @@ p{
   color: white;
   border-radius: 10px;
   font-size: 1.5rem;
-  font-family: 'Roboto', sans-serif;
-  margin-left: 40px;
-
+  font-family: 'Poppins', sans-serif;
 }
