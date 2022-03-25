@@ -10,30 +10,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     
-    <title>Cadastrar</title>
+    <title>Cadastro</title>
 </head>
 <body>
     <header>
-            <img id="logo-site" src="../img/logo.png">
+            <div class="container-logo">
+            <img class="logo-site" src="../img/logo.png">
+            </div>
+            <div id="container-titulo">
+            <h1>Teste</h1>
+            </div>
     </header>
     <main>
-        <h1>Seja bem-vindo ao nosso site!</h1>
         <section class="area-login">
             <div class="login">
                 <div>
                     <h2>Cadastro</h2>
                 </div>
                 <form>
-                    <input type="text" name="nome" placeholder="Nome" autofocus>
-                    <input type="text" name="nome" placeholder="E-mail" autofocus>
-                    <input type="password" name="senha" placeholder="Senha">
-                    <input  class="btn-entrar" type="submit" value="Cadastrar">
-                </form> 
-               <p class="out-conta">Já possui conta?</p>
+                    
+                    <input class="nome-aut" type="text" name="nome" placeholder="Nome">
+                    <input class="email-aut"   type="password" name="email" placeholder="E-mail">
+                    <input class="senha-aut"   type="password" name="senha" placeholder="Senha">
+               <p>Entre com outra conta.</p>
+               <input  class="btn-google" type="submit" value="">
+               <input  class="btn-entrar" type="submit" value="Cadastrar">
+               <p>Já possui uma conta?</p>
+               <div class="nova-conta">
                <input  class="btn-cadast" type="submit" value="Entrar">
+               </div>
+            </form>
             </div>
         </section>
     </main>

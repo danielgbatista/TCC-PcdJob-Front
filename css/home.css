@@ -7,7 +7,6 @@ body{
     background-image: url(../img/wave.PNG);
     background-repeat: no-repeat;
     background-size: cover;
-  
 }
 header{
     width: auto;
@@ -62,18 +61,36 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    height:auto;
     
 }
 #btn-empresa{
-  height:119px;
-  width:448px;
+  height:15%;
+  width: 15%;
+  min-height:10%;
+  min-width:10%;
   background-color: #1E7596;
   color: white;
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 2rem;
   font-family: 'Poppins', sans-serif;
   margin-right: 40px;
+  margin-left: 20px;
+  border: none;
+  cursor: pointer;
 }
+@media (max-width:1000px){
+    #btn-empresa{
+        height:15%;
+        width: 60%;
+        background-color: #1E7596;
+        color: white;
+        border-radius: 10px;
+        margin-left: 40px;
+        border:none;
+    }
+    }
 .container-empresa{
     width: 70px;
     height:70px
@@ -90,23 +107,49 @@ p{
     margin-left:150px;
     margin-top:-50px;
 }
+@media (max-width:1000px){
+    .container-botoes{
+        height:100%;
+        width: 100%;
+        display:flex;
+        justify-content:center;
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-top: -200px;
+    }
+}
 .container-botoes{
     height:100%;
     width: 100%;
     display:flex;
     justify-content:center;
     align-content: center;
-    padding-top: 40px;
+    padding-top: 40px;  
 }
 #btn-candidato{
-    height:119px;
-    width:448px;
+    height:15%;
+    width: 15%;
+    min-height:10%;
+    min-width:10%;
+    background-color: #1E7596;
+    color: white;
+    border-radius: 5px;
+    margin-left: 40px;
+    border:none;    
+}
+ @media (max-width:1000px){
+#btn-candidato{
+    height:15%;
+    width: 60%;
     background-color: #1E7596;
     color: white;
     border-radius: 10px;
-    font-size: 2rem;
-    font-family: 'Poppins', sans-serif;
     margin-left: 40px;
+    border:none;
+    
+}
 }
 .container-candidato{
     width: 70px;
@@ -123,4 +166,40 @@ p{
     height:100px;
     margin-left:150px;
     margin-top:-50px;
+}
+span{
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin-left:-40px;
+}
+@media (max-width:1000px){
+    span{
+        font-size: 1.5rem;
+        font-family: 'Poppins', sans-serif;
+        margin-left:-60px;
+    }
+}
+@media (max-width:1000px){
+    p{
+        width:80%;
+        font-size: 2rem;
+        font-family: 'Roboto', sans-serif;
+        padding-top: 300px;
+        padding-left:40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        height:auto;
+    }
+}
+@media (max-width:1000px){
+    #logo-site {
+        width: 320px;
+        height: 320px;
+        display: flex;
+        justify-content: center;
+        margin:  auto;
+        margin-top: 100px;
+    }
 }

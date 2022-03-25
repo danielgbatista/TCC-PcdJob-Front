@@ -10,14 +10,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     
     <title>Login</title>
 </head>
 <body>
     <header>
-            <img id="logo-site" src="../img/logo.png">
+            <div class="container-logo">
+            <img class="logo-site" src="../img/logo.png">
+            </div>
     </header>
     <main>
         <section class="area-login">
@@ -27,13 +29,18 @@
                     <h2>Seja bem-vindo ao nosso site!</h2>
                 </div>
                 <form>
-                    <input type="text" name="nome" placeholder="Usuário" autofocus>
-                    <input type="password" name="senha" placeholder="Senha">
-                    <input  class="btn-entrar" type="submit" value="Entrar">
-                </form>
-               <a href="">Redefinir</a> 
-               <p class="out-conta">Ainda não possui conta?</p>
+                    
+                    <input class="usuario-aut" type="text" name="nome" placeholder="Usuário">
+                    <input class="senha-aut"   type="password" name="senha" placeholder="Senha">
+               <a href="">Esqueci a Senha</a> 
+               <p>Entre com outra conta.</p>
+               <input  class="btn-google" type="submit" value="">
+               <input  class="btn-entrar" type="submit" value="Entrar">
+               <p>Ainda não possui conta?</p>
+               <div class="nova-conta">
                <input  class="btn-cadast" type="submit" value="Cadastrar">
+               </div>
+            </form>
             </div>
         </section>
     </main>

@@ -46,7 +46,7 @@ main{
     background-color: #F7F5F5;
     border-radius: 10px;
     width: 400px;
-    height: 500px;
+    height: 550px;
     padding: 35px;
 }
 .login form{
@@ -71,6 +71,7 @@ main{
     padding-top: 10px;
     height: auto;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
 }
 input::placeholder{
     color: black;
@@ -86,6 +87,7 @@ input::placeholder{
     background-size: auto;
     display: flex;
     margin-left:44%;
+    margin-bottom: 5% ;
     
 }
 .btn-entrar{
@@ -101,6 +103,7 @@ a{
     text-decoration: none;
     margin-left: 200px;
     margin-top: 10px;
+    font-family:'Roboto', sans-serif;
 }
 p{
     display: flex;
