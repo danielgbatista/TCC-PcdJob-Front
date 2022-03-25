@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;    
 }
+a{
+    text-decoration: none;
+}
 body{
     background-image: url(../img/wave.PNG);
     background-repeat: no-repeat;
@@ -99,7 +102,8 @@ p{
     width:60px;
     height:60px;
     display: flex;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 .select-empresa{
     width: auto;
@@ -137,7 +141,8 @@ p{
     color: white;
     border-radius: 5px;
     margin-left: 40px;
-    border:none;    
+    border:none; 
+    cursor: pointer;   
 }
  @media (max-width:1000px){
 #btn-candidato{
@@ -159,11 +164,12 @@ p{
     width:60px;
     height:60px;
     display: flex;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 .select-candidato{
     width: auto;
-    height:100px;
+    height:100px;   
     margin-left:150px;
     margin-top:-50px;
 }
@@ -174,14 +180,14 @@ span{
 }
 @media (max-width:1000px){
     span{
-        font-size: 1rem;
+        font-size: 1.1rem;
         font-family: 'Poppins', sans-serif;
-        margin-left:-75 px;
+        margin-left:-75;
     }
 }
 @media (max-width:1000px){
     p{
-        width:80%;
+        width:90%;
         font-size: 1.5rem;
         font-family: 'Roboto', sans-serif;
         padding-top: 300px;
@@ -191,7 +197,7 @@ span{
         align-items: center;
         margin: auto;
         height:auto;
-        margin-top: -80px;
+        margin-top: -90px;
     }
 }
 @media (max-width:1000px){
@@ -209,6 +215,7 @@ span{
         font-size: 4rem;
         align-items: center;
         font-family: 'Roboto', sans-serif; 
+    }
 }
 @media (max-width:1000px){
     h2{
