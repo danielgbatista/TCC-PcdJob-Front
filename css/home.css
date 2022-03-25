@@ -93,7 +93,7 @@ p{
     }
 .container-empresa{
     width: 70px;
-    height:70px
+    height:70px;
 }
 .img-empresa{
     width:60px;
@@ -117,7 +117,7 @@ p{
         flex-direction: column;
         flex-wrap: wrap;
         gap: 40px;
-        margin-top: -200px;
+        margin-top: -230px;
     }
 }
 .container-botoes{
@@ -174,15 +174,15 @@ span{
 }
 @media (max-width:1000px){
     span{
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-family: 'Poppins', sans-serif;
-        margin-left:-70px;
+        margin-left:-75 px;
     }
 }
 @media (max-width:1000px){
     p{
         width:80%;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-family: 'Roboto', sans-serif;
         padding-top: 300px;
         padding-left:40px;
@@ -191,15 +191,31 @@ span{
         align-items: center;
         margin: auto;
         height:auto;
+        margin-top: -80px;
     }
 }
 @media (max-width:1000px){
     #logo-site {
-        width: 320px;
-        height: 320px;
+        width: 160px;
+        height: 160px;
         display: flex;
         justify-content: center;
         margin:  auto;
-        margin-top: 100px;
+        margin-top: 170px;
+    }
+}@media (max-width:1000px){
+    h1{
+        color: #225E77;
+        font-size: 4rem;
+        align-items: center;
+        font-family: 'Roboto', sans-serif; 
+}
+@media (max-width:1000px){
+    h2{
+        color:#225E77;
+        font-size: 4rem;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 10px;
     }
 }
