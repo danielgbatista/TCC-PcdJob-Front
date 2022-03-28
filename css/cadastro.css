@@ -15,26 +15,41 @@ header{
     height: 20%;
 }
 .container-logo{
-    width: 200px;
-    height:200px;
+    width: 150px;
+    height:150px;
     display: flex;
     justify-content: center;
     margin:  auto;
-    margin-top:70px;
+    margin-top:10px;
 }
 #container-titulo{
-    width: 200px;
+    width: auto;
     height: 100px;
-    background-color: #225E77;
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
-
-}
+} 
 h1{
-    
+    font-size:3rem;
+    color: #225E77;
+    font-family:'Roboto', sans-serif;
 }
+h2{
+    font-size:2rem;
+    color: #225E77;
+    font-family:'Roboto', sans-serif;
+}
+#desc-header{
+    width: auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: -100px;
+    font-size: 2rem;
+} 
 .logo-site {
     width: 160px;
     height: 160px;
@@ -51,7 +66,7 @@ main{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    margin-top: -10%;
+    margin-top: -200px;
 }
 .login{
     display: flex;
@@ -75,11 +90,12 @@ main{
     outline: none;
     border-radius: 8px;
 }
-.login h2{
+.login h3{
     padding-top: 10px;
     height: auto;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 20px;
+    font-size: 2rem;
 }
 input::placeholder{
     color: black;
