@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/waves.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+header{
+    width: auto;
+    height: 20%;
+}
+.container-logo{
+    width: 150px;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    margin:  auto;
+    margin-top:10px;
+}
+#container-titulo{
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+} 
+h1{
+    font-size:3rem;
+    color: #225E77;
+    font-family:'Roboto', sans-serif;
+}
+h2{
+    font-size:2rem;
+    color: #225E77;
+    font-family:'Roboto', sans-serif;
+}
+main{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-form{
+    width: 30%;
+    height:  70%;
+    background-color: #F7F5F5;
+    margin-top: 100px;
+    
+}

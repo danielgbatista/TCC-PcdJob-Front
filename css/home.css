@@ -93,7 +93,7 @@ p{
         margin-left: 40px;
         border:none;
     }
-    }
+    }   
 .container-empresa{
     width: 70px;
     height:70px;
@@ -144,18 +144,18 @@ p{
     border:none; 
     cursor: pointer;   
 }
- @media (max-width:1000px){
-#btn-candidato{
-    height:15%;
-    width: 60%;
-    background-color: #1E7596;
-    color: white;
-    border-radius: 10px;
-    margin-left: 40px;
-    border:none;
-    
-}
-}
+@media (max-width:1000px){
+    #btn-candidato{
+        height:15%;
+        width: 60%;
+        background-color: #1E7596;
+        color: white;
+        border-radius: 10px;
+        margin-left: 40px;
+        border:none;
+        
+    }
+    }
 .container-candidato{
     width: 70px;
     height:70px
