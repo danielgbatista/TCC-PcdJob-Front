@@ -70,7 +70,7 @@ p{
 }
 #btn-empresa{
   height:15%;
-  width: 15%;
+  width: 18%;
   min-height:10%;
   min-width:10%;
   background-color: #1E7596;
@@ -86,7 +86,7 @@ p{
 @media (max-width:1000px){
     #btn-empresa{
         height:15%;
-        width: 60%;
+        width: 70%;
         background-color: #1E7596;
         color: white;
         border-radius: 10px;
@@ -134,7 +134,7 @@ p{
 }
 #btn-candidato{
     height:15%;
-    width: 15%;
+    width: 18%;
     min-height:10%;
     min-width:10%;
     background-color: #1E7596;
